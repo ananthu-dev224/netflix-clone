@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+.header-img{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imagesn/mainimg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+/* nav bar styling */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.nav-logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 13px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.lang{
+    display: inline-flex;
+    border: 1px solid #727070;
+    align-items: center;
+    background: transparent;
+    padding: 6px 36px;
+}
+.lang img{
+    width: 10px;
+    margin-left: 10px;
+}
+/* main content starts */
+.main-cont{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    margin: 20px 10px;
+    }
+.main-cont h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 800;
+    height: 124px;
+    width:970px;
+}
+.main-cont h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.main-cont p{
+    font-size: 20px;
+}
+.text-cont{
+    background: 1px solid #fff;
+    background: transparent;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+.text-cont input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #fff;
+
+}
+.text-cont button{
+    background-color: #db0001;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.text-cont input:placeholder-shown:focus{
+    border: 1px solid #fff;
+}
+hr{
+     width: 100%;
+     height: 8px;
+     background-color: #353333;
+     border: none;
+}
+/* middle first row sec */
+.middle-sec{
+    height: 200px;
+    width: 100%;
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: black;
+}
+.text-sec{
+    color: #fff;   
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.row1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.row1-img{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.row1-img img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.middle-sec h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+/* Questions-sec */
+.final-sec{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.final-sec h2{
+    font-weight:bold ;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.questions a{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     width: 100%;
+     height: 100px;
+     padding: 20px 20px;
+     background-color: #353333;
+     max-width: 750px;
+     cursor: pointer;
+}
+.questions a:hover{
+    background-color: #635a5a;
+}
+.questions p{
+    font-size: 18px;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 70px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    padding: 50px 15% 10px;
+    color: #fff;
+    margin-top: 205%;
+ }
+.rowlast{
+    width: 120px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly center;
+    padding-top: 50px;
+}
+footer h2{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #ffffffb3;
+}
+.rowlast a{
+    display:inline-flex;
+    color: #ffffffb3;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+    width: 200%;
+    padding-right: 200px;
+    padding-bottom: 20px;
+}
+.rowlast a:hover{
+    cursor: pointer;
+}
+footer p{
+    font-size: 12px;
+    color: #ffffffb3;
+}
